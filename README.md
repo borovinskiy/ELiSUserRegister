@@ -4,6 +4,8 @@ User registration code sample for ELiS library. See: https://elibsystem.ru/docs/
 
 Пример кода для регистрации пользователя в библиотеке (ЭБС) ELiS из сети организации.
 
+![screenshot](https://github.com/borovinskiy/ELiSUserRegister/blob/master/screenshot.png)
+
 # Install
 
 * Clone to server with PHP 5+ support.
