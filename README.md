@@ -11,6 +11,8 @@ User registration code sample for ELiS library. See: https://elibsystem.ru/docs/
 * Edit conf.php and set your settings. See code conf.php for more instructions.
 * Check success e-mail sending from web server without mail authorization.
 
+# Установка
+
 * Скопируйте файлы на сервер с поддержкой PHP 5+.
 * Настройте веб-сервер для работы с клонированной директорией.
 * Отредактируйте настройки в файле conf.php. Инструкции по настройкам в самом файле conf.php.
@@ -22,6 +24,8 @@ User registration code sample for ELiS library. See: https://elibsystem.ru/docs/
 * Server is sending link for autologin.
 * User going on URL and logged in on digital library and can set password.
 
+# Использование
+
 * Пользователь должен открыть index.php на вашем веб-сервере и отправить e-mail (обязательно) и имя пользователя (желательное).
 * Сервер отправит на e-mail ссылку, пройдя по которой пользователь попадет на сервер электронной библиотеки.
 * Пользователь должен открыть ссылку, залогинеться в электронную библиотеку и установить себе пароль на сервере библиотеки.
@@ -30,6 +34,8 @@ User registration code sample for ELiS library. See: https://elibsystem.ru/docs/
 
 * Do not print to user autologin link on web page. You realy want know, that this user is have sending e-mail. E-mail needed for authentificate user by e-mail.
 * You must usage restricted access only from your organization IP-address (see in conf.php param Conf::$allowedIP array). Do not opening this for internet.
+
+# Безопасность
 
 * Не выводите пользователю ссылку на автологин на веб-странице. В действительно должны убедиться, что пользователь имеет тот e-mail, на который запрашивает регистрацию. E-mail используется как средство аутентификации пользователя.
 * Вы должны использовать ограниченный доступ только для IP-адресов вашей организации (см. в conf.php массив Conf::$alloweIP). Не открывайте доступ для всего интернета.
