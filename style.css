@@ -1,0 +1,70 @@
+/*
+ * @license Apache-2.0
+ * @author Arsen I. Borovinskiy
+ */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0981B3;
+  color: #fff;
+  font-size: 24px;
+}
+  
+header {
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  background: #FFF;
+  color: #0981B3;
+  padding: 1em;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+header h1 {
+  display: inline-block;
+  margin: 1em;
+}
+
+.logo {
+  display: inline-block;
+}
+
+input, .button {
+  text-align: center;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  margin: 0.5em auto;
+  width: 50%;
+  padding: 4px;
+  font-size: 32px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.7);
+}
+
+label {
+  width: 100%;
+  font-size: 18px;
+  margin: 2em 0.5em 0.5em 0.5em;
+  display: block;
+  text-align: center;
+}
+
+.button {
+  background: #fff;
+  border: none;
+  margin: 2em auto;
+  color: #0981B3;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ccc;
+}
+
+.info {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  margin: 2em;
+}
