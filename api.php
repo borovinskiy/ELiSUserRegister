@@ -94,7 +94,7 @@ class ELiSClientApi extends Conf {
     foreach (self::$allowedIP as $ipRange) {
       $fromIP = ip2long($ipRange[0]);
       $toIP = ip2long($ipRange[1]);
-      if ($fromIP >= $userIP && $userIP <= $toIP) {
+      if ($fromIP <= $userIP && $userIP >= $toIP) {
         return true;
       }
     }
